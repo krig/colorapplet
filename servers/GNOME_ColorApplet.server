@@ -1,0 +1,27 @@
+ <oaf_info>
+        <oaf_server iid="OAFIID:GNOME_ColorApplet_Factory"
+                    type="exe" location="colorapplet.py">
+
+                <oaf_attribute name="repo_ids" type="stringv">
+                        <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                        <item value="IDL:Bonobo/Unknown:1.0"/>
+                </oaf_attribute>
+                <oaf_attribute name="name" type="string" value="Color Applet"/>
+                <oaf_attribute name="description" type="string" value="Simple color picker"/>
+        </oaf_server>
+
+        <oaf_server iid="OAFIID:GNOME_ColorApplet"
+                    type="factory" location="OAFIID:GNOME_ColorApplet_Factory">
+
+                <oaf_attribute name="repo_ids" type="stringv">
+                        <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+                        <item value="IDL:Bonobo/Control:1.0"/>
+                        <item value="IDL:Bonobo/Unknown:1.0"/>
+                </oaf_attribute>
+                <oaf_attribute name="name" type="string" value="Color Applet"/>
+                <oaf_attribute name="description" type="string" value="Simple color picker"/>
+                <oaf_attribute name="panel:category" type="string" value="Utilities"/>
+                <oaf_attribute name="panel:icon" type="string" value="image-x-generic"/>
+        </oaf_server>
+        </oaf_info>
+

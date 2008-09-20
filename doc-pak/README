@@ -1,0 +1,13 @@
+Color picker applet
+====================
+
+Concept
+
+Button:
+
+    * left click lets you pick a color from anywhere on the screen
+    * middle click copies current color to clipboard
+    * right click gives a menu to launch gcolor2, prefs etc..
+        menu also holds previously selected colors, color sets (can be stored by name) etc..
+
+

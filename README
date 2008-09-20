@@ -1,0 +1,18 @@
+Color picker applet
+====================
+
+Concept
+
+Button:
+
+    * left click lets you pick a color from anywhere on the screen
+    * middle click copies current color to clipboard
+    * right click gives a menu to launch gcolor2, prefs etc..
+        menu also holds previously selected colors, color sets (can be stored by name) etc..
+
+
+The current state of the source is one of neglect. It is tested and actively
+being used in Ubuntu 8.04. Not guaranteed to work anywhere else.
+May be missing needed dependencies.
+May hunt and feed on small pets.
+

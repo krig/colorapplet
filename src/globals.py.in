@@ -1,0 +1,6 @@
+name = "colorapplet"
+version = "@VERSION@"
+DATA_DIR = "@datarootdir@"
+LIB_DIR = "@libdir@"
+PYTHONDIR = "@pythondir@"
+
